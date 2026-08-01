@@ -1,8 +1,27 @@
 aid: zed
 name: Zed
-description: 'Zed is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Zed is a BSP-supervised fintech building a premium consumer credit card
+  for Southeast Asians, headquartered in Manila with an engineering team in San Francisco.
+  Its flagship product is the Zed Card, a Titanium Mastercard with no foreign transaction
+  fees, no annual fees, flexible installments, and an accompanying mobile app that
+  offers real-time statements, spend notifications, and unlimited self-destructing
+  virtual cards for online purchases. The company raised a $16.5M Series A led by Accel
+  with participation from Valar Ventures and fintech operators from Nubank, Square,
+  and Mercury. Zed is a consumer-facing financial product and does not currently publish
+  a public developer API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/zed/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.zed.co/wp-content/uploads/2024/01/svgexport-1.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Credit Cards
+- Payments
+- Mastercard
+- Consumer Finance
+- Virtual Cards
+- Mobile Banking
+- Philippines
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.zed.co/
+- type: SignUp
+  url: https://waitlist.zed.co/sign-up
+- type: Support
+  url: https://www.zed.co/faqs/
+- type: TermsOfService
+  url: https://www.zed.co/user-agreement
+- type: PrivacyPolicy
+  url: https://www.zed.co/privacy-policy
+- type: DomainSecurity
+  url: security/zed-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
