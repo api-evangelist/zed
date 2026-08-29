@@ -10,6 +10,17 @@ description: 'Zed is a BSP-supervised fintech building a premium consumer credit
   and Mercury. Zed is a consumer-facing financial product and does not currently publish
   a public developer API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/zed/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
